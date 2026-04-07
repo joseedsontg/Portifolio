@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Bio - Portfólio pessoal de estudante de Ciência da Computação">
+    <title>Meu Bio | Portfólio Pessoal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="terminal-dots">
+                <span class="dot-red"></span>
+                <span class="dot-yellow"></span>
+                <span class="dot-green"></span>
+            </div>
+            <a href="index.html" class="logo-area">
+                <h1 class="header-nome">jose-edson</h1>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i class="fas fa-terminal"></i>
+            </button>
+            <nav id="navMenu" class="nav-menu">
+                <ul>
+                    <li><a href="sobre.html">sobre</a></li>
+                    <li><a href="habilidades.html">skills</a></li>
+                    <li><a href="projetos.html">projetos</a></li>
+                    <li><a href="contato.html">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+            <img src="img/foto-perfil.jpg" alt="Foto de José Edson" class="hero-foto fade-in">
+
+            <div class="typing-line" data-text='<span class="prompt">joseedson@dev:~$</span> <span class="command">whoami</span>'></div>
+
+            <h2 class="typing-line" data-text='Olá, eu sou <span class="destaque">José Edson</span>'></h2>
+
+            <div class="typing-line terminal-line" data-text='<span class="output">Estudante de Ciência da Computação | Desenvolvedor em formação</span>'></div>
+
+            <div class="typing-line terminal-line" data-text='<span class="prompt">joseedson@dev:~$</span> <span class="command">cat</span> <span class="flag">status.txt</span>' style="margin-top: 20px;"></div>
+
+            <div class="typing-line terminal-line" data-text='<span class="output">📍 Recife, PE &nbsp; | &nbsp; 🎓 5º Período &nbsp; | &nbsp; 💻 Focado em IA & Games</span>'></div>
+
+            <span class="cursor-blink" id="cursorFinal"></span>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-redes">
+                <a href="https://www.linkedin.com/in/joseedsonteixeiragaldino" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/joseedsontg" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/joseedson.tg" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:joseedsontg@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; <span id="anoAtual"></span> José Edson Teixeira Galdino</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
